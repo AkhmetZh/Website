@@ -1,0 +1,224 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.top-bar {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 8px;
+}
+.top-bar a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f5f5f5;
+  padding: 10px 20px;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.logo span {
+  color: #e91e63;
+}
+
+.catalog-btn {
+  background: #e91e63;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.search-bar {
+  flex: 1;
+  margin: 0 20px;
+}
+.search-bar input {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icon {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.icon span {
+  font-size: 24px;
+  display: block;
+}
+
+.icon p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.nav {
+  background: #ddd;
+  text-align: center;
+  padding: 10px;
+}
+.nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.banner {
+  text-align: center;
+  padding: 60px 20px;
+}
+.banner h1 {
+  color: red;
+  font-size: 48px;
+}
+.banner p {
+  font-size: 24px;
+}
+.gucci {
+  width: 1500px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.top-offers {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.tabs {
+  margin-bottom: 20px;
+}
+
+.tab {
+  font-size: 16px;
+  color: #666;
+  margin: 0 10px;
+}
+
+.tab.active {
+  color: #000;
+  font-weight: bold;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.card {
+  background-color: #fff;
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.image {
+  height: 200px;
+  background-color: #eee;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.button {
+  background-color: #e0e0e0;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #d0d0d0;
+}
+.link {
+color: black;
+text-decoration: none;   
+}
+
+.link:hover {
+color: #e91e63;
+}
+
+.footer {
+  background-color: #e8e8e8;
+  padding: 20px;
+  text-align: center;
+  color: #666;
+}
+
+.footer .about {
+    width: 2000px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer .follow {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.footer .social-icons {
+  margin-top: 10px;
+}
+
+.footer .social-icons span {
+  font-size: 24px;
+  margin: 0 10px;
+  cursor: pointer;
+  color: #666;
+}
+
+.footer .social-icons span:hover {
+  color: #e91e63;
+}

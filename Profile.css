@@ -1,0 +1,132 @@
+body {
+  background-color: #f8f9fa;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.profile-header {
+  background: url("https://medias.penhaligons.com/cdn-cgi/image/format=auto,width=1920/medias/sys_master/images/h14/h13/10010554925086/PLP_Fragrances_For_Her_Hero_Banner_Desktop_1840x1226/PLP-Fragrances-For-Her-Hero-Banner-Desktop-1840x1226.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 30px;
+}
+
+.profile-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  margin-bottom: 15px;
+  background: #fff;
+}
+
+.btn-back {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, #555, #888);
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.btn-back:hover {
+  background: linear-gradient(135deg, #444, #666);
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.perfume-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.perfume-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.list-group img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.btn-edit {
+  background: white;
+  color: #8c5c2f;
+  border: 1px solid #8c5c2f;
+}
+
+.btn-edit:hover {
+  background: #8c5c2f;
+  color: white;
+}
+.site-footer {
+  background: #e8e8e8;
+  color: #e8ecef;
+  padding: 40px 20px;
+  margin-top: 60px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer-content h3,
+.footer-content h4 {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.footer-content p,
+.footer-content a {
+  margin: 6px 0;
+  color: #666;
+  text-decoration: none;
+}
+
+.footer-content p:hover {
+  color: #a5b4fc;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: black;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.logo span {
+  color: #e91e63;
+}
